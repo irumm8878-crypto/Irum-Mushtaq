@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+    border-bottom: 1px solid #f3d6e5;
+}
+
+header h2 {
+    color: #e75491;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #e75491;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero h1 span {
+    color: #e75491;
+}
+
+.hero h2 {
+    color: #555;
+    margin: 10px 0;
+}
+
+.hero p {
+    margin: 20px auto;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.button,
+button {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #e75491;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #d63f7d;
+}
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #e75491;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background-color: white;
+    padding: 18px 35px;
+    border-radius: 10px;
+    border: 1px solid #f1c8dc;
+}
+
+.project-card {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #f1c8dc;
+    border-radius: 12px;
+}
+
+.project-card h3 {
+    color: #e75491;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: #777;
+    border-top: 1px solid #f3d6e5;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 6px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+}
